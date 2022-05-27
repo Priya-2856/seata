@@ -46,7 +46,7 @@ jobs:
                ./mvnw -T 4C clean install -DskipTests=false -Dcheckstyle.skip=false -Dlicense.skip=false          -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;
              fi
 
-      # step 5
+      # step 5.2
       - name: "Codecov"
         if: matrix.java == '8'
         uses: codecov/codecov-action@v1.5.0
