@@ -9,7 +9,7 @@ WORKDIR /$BASE_DIR
 # ADD FORM distribution
 
 ADD distribution/ /bin
-ADD discovery/seata-discovery-zk/target/ /target
+ADD ext/apm-seata-skywalking-plugin/target/ /target
 ADD ext/apm-seata-skywalking-plugin/config/ /config
 ADD distribution/ /LICENSE
 
