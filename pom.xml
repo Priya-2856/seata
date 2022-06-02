@@ -225,9 +225,6 @@
              <os.detected.classifier>osx-x86_64</os.detected.classifier>
           </properties>
         </profile>
-        <activeProfiles>
-          <activeProfile>x86_64</activeProfile>
-        </activeProfiles>
     </profiles>
 
     <build>
