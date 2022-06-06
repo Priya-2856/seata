@@ -30,9 +30,9 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          context: .
+          context: ./distribution/Dockerfile
           file: ./distribution/Dockerfile
-          platforms: linux/amd64/arm64
+          platforms: linux/amd64
           push: true
           tags: abhay900/seata:latest
   build:
