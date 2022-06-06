@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [ 8, 11, 17 ]
+        java: [ 8 ]
         springboot: [2.6.4,2.5.10,2.5.13]
     steps:
       # step 1
