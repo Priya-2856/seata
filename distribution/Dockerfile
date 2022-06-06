@@ -1,5 +1,5 @@
 # https://hub.docker.com/orgs/seataio
-FROM openjdk:8u332-jre-bullseye
+FROM openjdk:8u332-jre
 
 # set label
 LABEL maintainer="Seata <seata.io>"
