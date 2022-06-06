@@ -32,7 +32,7 @@ jobs:
         with:
           context: .
           file: ./distribution/Dockerfile
-          platforms: linux/amd64
+          platforms: linux/amd64/arm64
           push: true
           tags: abhay900/seata:latest
 
