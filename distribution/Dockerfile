@@ -1,5 +1,6 @@
 # https://hub.docker.com/orgs/seataio
-FROM openjdk:8u332-jre
+FROM openjdk:8u232-jre-stretch
+
 
 # set label
 LABEL maintainer="Seata <seata.io>"
